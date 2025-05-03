@@ -203,6 +203,18 @@
   .h-\[50px\] {
     height: 50px;
   }
+  .h-\[500px\] {
+    height: 500px;
+  }
+  .h-\[550px\] {
+    height: 550px;
+  }
+  .h-\[600px\] {
+    height: 600px;
+  }
+  .h-\[650px\] {
+    height: 650px;
+  }
   .h-auto {
     height: auto;
   }
@@ -368,6 +380,11 @@
     &:focus {
       --tw-outline-style: none;
       outline-style: none;
+    }
+  }
+  .max-lg\:h-auto {
+    @media (width < 64rem) {
+      height: auto;
     }
   }
 }
