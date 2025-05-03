@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <title>Registration Form</title>
+</head>
+<body class="bg-gradient-to-r from-[#7216db] to-[#c311ef]">
+    <div class="mx-auto mt-30 bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-2xl w-[490px]  h-auto max-w-[90%]">
+        <form action="#" class="flex flex-col justify-center items-center py-20">
+            <h1 class="text-white text-5xl font-semibold">Sign Up</h1>
+            <div class="flex flex-col gap-5 relative mt-20">
+                <div class="relative w-[300px] flex items-center">
+                    <input 
+                        id="email" 
+                        type="email" 
+                        name="email" 
+                        placeholder="Enter your email" 
+                        class="bg-white/5 border border-white/20 w-full h-[50px] mt-4 rounded-lg shadow-lg 
+                        placeholder:text-white/50 px-5 pr-10 focus:ring-2 focus:ring-[#c311ef]/50 focus:outline-none transition-all duration-300"
+                    />
+                    <i class="fa fa-envelope text-white absolute inset-y-0 right-3 top-9"></i> 
+                </div>
+                <div class="relative w-[300px] flex items-center">
+                    <input 
+                        id="password" 
+                        type="password" 
+                        name="userpass" 
+                        placeholder="Enter your password" 
+                        class="bg-white/5 border border-white/20 w-full h-[50px] mt-4 rounded-lg shadow-lg 
+                        placeholder:text-white/50 px-5 pr-10 focus:ring-2 focus:ring-[#c311ef]/50 focus:outline-none transition-all duration-300"
+                    />
+                    <button type="button" id="toggle-password">
+                        <i class="fa fa-eye text-white absolute inset-y-0 right-3 top-9" id="eye-icon"></i>
+                    </button> 
+                </div>
+            </div>
+            <a href="#" class="mt-10 text-white font-semibold">Have an account? 
+            <i class="text-white/50 hover:text-white">Sign In</i></a>
+            <button class="bg-white/10 border border-white/20 rounded-lg shadow-lg w-[250px] h-[50px] mt-10 
+            hover:bg-white/20 hover:w-[300px] transition-all duration-300">Submit</button>
+        </form>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
